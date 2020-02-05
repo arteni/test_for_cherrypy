@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/home/js/button_on_clicker.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Hello World!</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:lavender;">
+                <p>sensors(/api/v1/sens)</p>
+                <p id="data1"></p>
+                <p id="data2"></p>
+                <p id="data3"></p>
+                <p id="data4"></p>
+                <p id="data5"></p>
+            </div>
+            <div class="col-sm-6" style="background-color:lavenderblush;">
+                <p>switchers(/api/v1/state)</p>
+                <p id="data_s1" aria-valuetext="lol"></p>
+                <p id="data_s2"></p>
+                <p id="data_s3"></p>
+                <p id="data_s4"></p>
+                <p id="data_s5"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
